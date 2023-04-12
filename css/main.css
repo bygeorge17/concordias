@@ -1,0 +1,14 @@
+.navegacion{
+height: 40px;
+font-size: 2rem;
+}
+
+.swiper {
+overflow: hidden;
+  height: 600px;
+}
+.swiper-slide img{
+object-fit: cover;
+width: 100vw;
+height: 600px;
+}

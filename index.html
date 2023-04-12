@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Salones Concordia - Eventos y Celebraciones</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/tailwindcss@2.1.2/dist/tailwind.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <script src="https://unpkg.com/scrollreveal@4.1.4/dist/scrollreveal.min.js"></script>
+    <!-- Agregamos los scripts de Swiper -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body class="bg-gray-100">
+    <div class="container">
+      <div
+        class="min-h-screen flex items-center justify-center relative overflow-hidden"
+      >
+        <video
+          src="assets/video/concordia_background.mp4"
+          autoplay
+          loop
+          muted
+          class="absolute top-0 left-0 w-full h-full object-cover"
+        ></video>
+        <div
+          class="absolute top-0 left-0 w-full h-full bg-gray-800 opacity-50"
+        ></div>
+        <div class="relative text-center">
+          <h1 class="text-5xl font-bold text-white mb-4">Salones Concordia</h1>
+          <p class="text-2xl text-white mb-8">
+            La mejor opción para tus eventos y celebraciones
+          </p>
+          <a
+            href="#"
+            class="inline-block bg-white text-gray-800 py-2 px-6 rounded-lg shadow-lg hover:shadow-xl"
+            >Reservar Ahora</a
+          >
+        </div>
+      </div>
+      <nav
+        class="bg-gray-900 text-white fixed sticky top-0 w-full z-10 navegacion"
+      >
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="flex justify-between items-center">
+            <div class="flex items-center">
+              <a
+                href="/"
+                class="text-lg font-semibold tracking-widest uppercase"
+                >Salones Concordia</a
+              >
+              <button
+                class="md:hidden ml-2 inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:bg-gray-700 focus:text-white transition duration-150 ease-in-out"
+                aria-label="Abrir menú"
+                aria-expanded="false"
+                aria-controls="mobile-menu"
+              >
+                <svg
+                  class="h-6 w-6"
+                  stroke="currentColor"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h16M4 18h16"
+                  ></path>
+                </svg>
+              </button>
+            </div>
+            <div class="hidden md:block menu">
+              <ul class="ml-4 flex items-center space-x-4">
+                <li>
+                  <a href="/" class="px-3 py-2 rounded-md text-sm font-medium"
+                    >Inicio</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="/paquetes"
+                    class="px-3 py-2 rounded-md text-sm font-medium"
+                    >Paquetes</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="/graduaciones"
+                    class="px-3 py-2 rounded-md text-sm font-medium"
+                    >Graduaciones y Eventos</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="/promociones"
+                    class="px-3 py-2 rounded-md text-sm font-medium"
+                    >Promociones</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="/contacto"
+                    class="px-3 py-2 rounded-md text-sm font-medium"
+                    >Contacto</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="/blog"
+                    class="px-3 py-2 rounded-md text-sm font-medium"
+                    >Blog</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- Menú para dispositivos móviles -->
+        <div class="hidden md:hidden" id="mobile-menu">
+          <div class="px-2 pt-2 pb-3 sm:px-3">
+            <a href="/" class="block px-3 py-2 rounded-md text-base font-medium"
+              >Inicio</a
+            >
+            <a
+              href="/paquetes"
+              class="block px-3 py-2 rounded-md text-base font-medium"
+              >Paquetes</a
+            >
+            <a
+              href="/graduaciones"
+              class="block px-3 py-2 rounded-md text-base font-medium"
+              >Graduaciones y Eventos</a
+            >
+            <a
+              href="/promociones"
+              class="block px-3 py-2 rounded-md text-base font-medium"
+              >Promociones</a
+            >
+            <a
+              href="/contacto"
+              class="block px-3 py-2 rounded-md text-base font-medium"
+              >Contacto</a
+            >
+            <a
+              href="/blog"
+              class="block px-3 py-2 rounded-md text-base font-medium"
+              >Blog</a
+            >
+          </div>
+        </div>
+      </nav>
+
+      <section class="bg-gray-100 py-16">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="sr">
+              <img
+                src="assets/images/302.jpg"
+                alt="Salón de eventos"
+                class="w-full"
+              />
+            </div>
+            <div class="sr">
+              <h2 class="text-3xl font-bold mb-4">Nuestro salón de eventos</h2>
+              <p class="text-lg mb-4">
+                Nuestro salón de eventos es el lugar perfecto para celebrar
+                cualquier ocasión especial. Con una capacidad para hasta 200
+                personas, es el espacio ideal para bodas, quinceañeras,
+                graduaciones, fiestas de cumpleaños y mucho más.
+              </p>
+              <p class="text-lg mb-4">
+                El salón cuenta con una amplia pista de baile, iluminación
+                ambiental y un sistema de sonido de alta calidad, para que tu
+                evento sea inolvidable. Además, ofrecemos servicio de catering y
+                decoración personalizada, para que todo sea perfecto y tú solo
+                tengas que preocuparte por disfrutar.
+              </p>
+              <a
+                href="/contacto"
+                class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-lg mt-4"
+                >Solicitar cotización</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="py-16">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 class="text-3xl font-bold mb-8">Eventos en Salones Concordia</h2>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="sr">
+              <img src="assets/images/boda.webp" alt="Boda" class="w-full" />
+              <h3 class="text-xl font-bold mt-4 mb-2">Bodas</h3>
+              <p class="text-gray-700">
+                Celebra tu boda en nuestro hermoso salón de eventos. Ofrecemos
+                paquetes completos que incluyen banquete, decoración, música y
+                mucho más.
+              </p>
+            </div>
+            <div class="sr">
+              <img src="assets/images/xv.jpg" alt="XV años" class="w-full" />
+              <h3 class="text-xl font-bold mt-4 mb-2">XV años</h3>
+              <p class="text-gray-700">
+                Haz que tus XV años sean inolvidables en Salones Concordia.
+                Contamos con amplios espacios y servicios completos para que tu
+                fiesta sea única y especial.
+              </p>
+            </div>
+            <div class="sr">
+              <img
+                src="assets/images/cumple.jpg"
+                alt="Cumpleaños"
+                class="w-full"
+              />
+              <h3 class="text-xl font-bold mt-4 mb-2">Cumpleaños</h3>
+              <p class="text-gray-700">
+                Celebra tu cumpleaños en nuestro salón de eventos. Ofrecemos
+                paquetes personalizados para que tengas una fiesta inolvidable
+                con tus amigos y familiares.
+              </p>
+            </div>
+            <div class="sr">
+              <img
+                src="assets/images/conferencia.jpg"
+                alt="Conferencias"
+                class="w-full"
+              />
+              <h3 class="text-xl font-bold mt-4 mb-2">
+                Conferencias y eventos corporativos
+              </h3>
+              <p class="text-gray-700">
+                Organiza tu próxima conferencia o evento corporativo en Salones
+                Concordia. Contamos con servicios completos y equipamiento
+                audiovisual para que tu evento sea un éxito.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="py-10 bg-white">
+        <div class="container mx-auto">
+          <h2 class="text-3xl font-bold text-center mb-10">
+            Ventajas de nuestro salón de eventos
+          </h2>
+          <div class="flex flex-wrap justify-center items-center">
+            <div class="w-full md:w-1/2 lg:w-1/3 px-5 mb-8">
+              <div class="bg-blue-500 p-5 rounded-lg shadow-lg">
+                <h3 class="text-xl font-bold mb-3">Amplio espacio</h3>
+                <p class="text-white text-lg">
+                  Contamos con un amplio espacio para que tus invitados
+                  disfruten cómodamente de tu evento.
+                </p>
+              </div>
+            </div>
+            <div class="w-full md:w-1/2 lg:w-1/3 px-5 mb-8">
+              <div class="bg-blue-500 p-5 rounded-lg shadow-lg">
+                <h3 class="text-xl font-bold mb-3">Variedad de paquetes</h3>
+                <p class="text-white text-lg">
+                  Ofrecemos una gran variedad de paquetes para que encuentres el
+                  que mejor se adapte a tus necesidades y presupuesto.
+                </p>
+              </div>
+            </div>
+            <div class="w-full md:w-1/2 lg:w-1/3 px-5 mb-8">
+              <div class="bg-blue-500 p-5 rounded-lg shadow-lg">
+                <h3 class="text-xl font-bold mb-3">Servicio de catering</h3>
+                <p class="text-white text-lg">
+                  Ofrecemos un excelente servicio de catering con opciones para
+                  todos los gustos y necesidades alimentarias.
+                </p>
+              </div>
+            </div>
+            <div class="w-full md:w-1/2 lg:w-1/3 px-5 mb-8">
+              <div class="bg-blue-500 p-5 rounded-lg shadow-lg">
+                <h3 class="text-xl font-bold mb-3">Equipo audiovisual</h3>
+                <p class="text-white text-lg">
+                  Contamos con equipo audiovisual de alta calidad para que tu
+                  evento tenga un gran impacto.
+                </p>
+              </div>
+            </div>
+            <div class="w-full md:w-1/2 lg:w-1/3 px-5 mb-8">
+              <div class="bg-blue-500 p-5 rounded-lg shadow-lg">
+                <h3 class="text-xl font-bold mb-3">
+                  Personal altamente capacitado
+                </h3>
+                <p class="text-white text-lg">
+                  Nuestro personal altamente capacitado está siempre dispuesto a
+                  ayudarte en lo que necesites durante tu evento.
+                </p>
+              </div>
+            </div>
+            <div class="w-full md:w-1/2 lg:w-1/3 px-5 mb-8">
+              <div class="bg-blue-500 p-5 rounded-lg shadow-lg">
+                <h3 class="text-xl font-bold mb-3">Flexibilidad</h3>
+                <p class="text-white text-lg">
+                  Nos adaptamos a tus necesidades y te brindamos la flexibilidad
+                  que necesitas para que tu evento sea todo un éxito.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Agregamos la estructura HTML del carrusel -->
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="assets/images/411.jpg" alt="Imagen 1" />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/images/409.jpg" alt="Imagen 2" />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/images/410.jpg" alt="Imagen 3" />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/images/412.jpg" alt="Imagen 3" />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/images/413.jpg" alt="Imagen 3" />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/images/414.jpg" alt="Imagen 3" />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/images/415.jpg" alt="Imagen 3" />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/images/416.jpg" alt="Imagen 3" />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/images/417.jpg" alt="Imagen 3" />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/images/418.jpg" alt="Imagen 3" />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/images/419.jpg" alt="Imagen 3" />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/images/420.jpg" alt="Imagen 3" />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/images/421.jpg" alt="Imagen 3" />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/images/422.jpg" alt="Imagen 3" />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/images/423.jpg" alt="Imagen 3" />
+          </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
+      </div>
+
+      <section class="bg-gray-100 py-16">
+        <div class="container mx-auto">
+          <h2 class="text-3xl font-bold mb-8">Nuestro Equipo</h2>
+          <div class="flex flex-wrap -mx-4">
+            <div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
+              <div class="bg-white rounded-lg overflow-hidden shadow-lg">
+                <img
+                  class="w-full h-64 object-cover object-center"
+                  src="assets/images/catering.webp"
+                  alt="Miembro del equipo"
+                />
+                <div class="p-4">
+                  <h3 class="text-xl font-semibold mb-2">Catering</h3>
+                  <p class="text-gray-700 leading-relaxed">
+                    Nuestro equipo de catering esta formado por profesionales
+                    altamente capacitados y experimentados en la preparación y
+                    servicio de alimentos y bebidas.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
+              <div class="bg-white rounded-lg overflow-hidden shadow-lg">
+                <img
+                  class="w-full h-64 object-cover object-center"
+                  src="assets/images/gerente_eventos.jpg"
+                  alt="Miembro del equipo"
+                />
+                <div class="p-4">
+                  <h3 class="text-xl font-semibold mb-2">Gerente de Eventos</h3>
+                  <p class="text-gray-700 leading-relaxed">
+                    Marison Gonzalez es una persona altamente organizada,
+                    detallista y capaz de gestionar múltiples tareas y proyectos
+                    simultáneamente.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
+              <div class="bg-white rounded-lg overflow-hidden shadow-lg">
+                <img
+                  class="w-full h-64 object-cover object-center"
+                  src="assets/images/personal_cocina.jpg"
+                  alt="Miembro del equipo"
+                />
+                <div class="p-4">
+                  <h3 class="text-xl font-semibold mb-2">Personal de Cocina</h3>
+                  <p class="text-gray-700 leading-relaxed">
+                    Nuestro personal de cocina esta altamente capacitado y tiene
+                    experiencia en la preparación y presentación de alimentos de
+                    alta calidad
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="container mx-auto px-4 py-8">
+      <h1 class="text-3xl font-bold mb-8">Formulario de contacto</h1>
+      <form action="#" method="POST">
+        <div class="mb-4">
+          <label for="name" class="block text-gray-700 font-bold mb-2"
+            >Nombre completo:</label
+          >
+          <input
+            type="text"
+            name="name"
+            id="name"
+            class="w-full border rounded py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+            required
+          />
+        </div>
+        <div class="mb-4">
+          <label for="email" class="block text-gray-700 font-bold mb-2"
+            >Correo electrónico:</label
+          >
+          <input
+            type="email"
+            name="email"
+            id="email"
+            class="w-full border rounded py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+            required
+          />
+        </div>
+        <div class="mb-4">
+          <label for="message" class="block text-gray-700 font-bold mb-2"
+            >Mensaje:</label
+          >
+          <textarea
+            name="message"
+            id="message"
+            class="w-full border rounded py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+            required
+          ></textarea>
+        </div>
+        <div class="flex justify-center">
+          <button
+            type="submit"
+            class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+          >
+            Enviar
+          </button>
+        </div>
+      </form>
+    </div>
+
+    <footer class="bg-gray-900 text-white">
+      <div class="container mx-auto py-8">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div class="flex flex-col items-center">
+            <h2 class="text-lg font-bold mb-4">Sobre nosotros</h2>
+            <p class="text-sm text-gray-400 text-center">
+              Somos un salón de eventos que ofrece servicios para graduaciones,
+              bodas, fiestas de cumpleaños y mucho más.
+            </p>
+          </div>
+          <div class="flex flex-col items-center">
+            <h2 class="text-lg font-bold mb-4">Contacto</h2>
+            <p class="text-sm text-gray-400 text-center">Av. Siempreviva 742</p>
+            <p class="text-sm text-gray-400 text-center">
+              Teléfono: (123) 456-7890
+            </p>
+            <p class="text-sm text-gray-400 text-center">
+              Email: info@salonesconcordia.com
+            </p>
+          </div>
+          <div class="flex flex-col items-center">
+            <h2 class="text-lg font-bold mb-4">Síguenos</h2>
+            <div class="flex justify-center">
+              <a href="#" class="text-white hover:text-gray-400 mx-2"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="#" class="text-white hover:text-gray-400 mx-2"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a href="#" class="text-white hover:text-gray-400 mx-2"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <hr class="my-8 border-gray-800" />
+        <div class="text-center text-gray-400 text-sm">
+          &copy; 2023 Salones Concordia. Todos los derechos reservados.
+        </div>
+      </div>
+    </footer>
+
+    <!-- Inicializamos el carrusel -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script>
+      const swiper = new Swiper(".swiper", {
+        // Optional parameters
+        slidesPerView: 3,
+        spaceBetween: 10,
+        direction: "horizontal",
+        loop: true,
+        speed: 400,
+        autoplay: {
+          delay: 3500,
+        },
+
+        // If we need pagination
+        pagination: {
+          el: ".swiper-pagination",
+        },
+
+        // Navigation arrows
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+
+        // And if we need scrollbar
+        scrollbar: {
+          el: ".swiper-scrollbar",
+        },
+      });
+      ScrollReveal().reveal(".sr", {
+        duration: 1000,
+        delay: 200,
+        distance: "50px",
+        easing: "ease-out",
+        origin: "bottom",
+        reset: true,
+      });
+      ScrollReveal().reveal(".text-white", { duration: 1000, delay: 200 });
+      ScrollReveal().reveal("a", { duration: 1000, delay: 400 });
+      ScrollReveal().reveal(".container", { delay: 200 });
+    </script>
+  </body>
+</html>
